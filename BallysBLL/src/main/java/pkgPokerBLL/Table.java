@@ -13,9 +13,8 @@ public class Table {
 		TableID = UUID.randomUUID();
 	}
 	
-	public Table AddPlayerToTable(Player p)
-	{
-		//TODO: Add a player to the table (should be pretty easy)		
-		return this;
+	public void AddPlayerToTable(Player p)
+	{		
+		TablePlayers.add(p);
 	}
 }
